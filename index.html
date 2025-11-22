@@ -1,57 +1,16 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>M Mansha</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>M Mansha</title>
+  <link rel="stylesheet" href="style.css">
 
-<!-- Basic, minimal styles for ATS: plain structure, readable fonts, no images, good headings -->
-<style>
-  :root{
-    --max-width:900px;
-    --accent:#0b63d6;
-    --muted:#666;
-    --gap:12px;
-    --font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  }
-  html,body{height:100%;margin:0;padding:0;font-family:var(--font-family);color:#111;background:#fff;}
-  .container{max-width:var(--max-width);margin:20px auto;padding:22px;border:1px solid #e6e6e6;}
-  header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:8px;}
-  .name{
-    font-size:28px;margin:0 0 4px 0;font-weight:700;
-  }
-  .title{font-size:14px;color:var(--muted);margin:0;}
-  .contact{font-size:13px;color:var(--muted);line-height:1.45;}
-  .section{margin-top:18px;}
-  h2{font-size:15px;margin:0 0 8px 0;color:var(--accent);}
-  p.summary{margin:0;color:#222;}
-  ul{margin:6px 0 0 18px;padding:0;}
-  li{margin:4px 0;}
-  .two-col{display:flex;gap:20px;flex-wrap:wrap;}
-  .col-left{flex:1 1 60%;min-width:260px;}
-  .col-right{flex:1 1 35%;min-width:200px;}
-  .job{margin-bottom:12px;}
-  .job .company{font-weight:600;}
-  .meta{font-size:13px;color:var(--muted);}
-  .skill-list{display:flex;flex-wrap:wrap;gap:6px;}
-  .skill{border:1px solid #ddd;padding:6px 8px;border-radius:4px;font-size:13px;background:#fafafa;}
-  /* Print friendly */
-  @media print{
-    body{background:#fff;}
-    .container{border:none;box-shadow:none;margin:0;padding:0;}
-    .no-print{display:none;}
-  }
-  /* Small screens */
-  @media (max-width:520px){
-    .name{font-size:22px;}
-    header{gap:6px;}
-  }
+  <!-- Basic, minimal styles for ATS: plain structure, readable fonts, no images, good headings -->
 
-  /* Accessibility helpers */
-  a{color:var(--accent);text-decoration:none;}
-  a:focus{outline:2px dashed #333;outline-offset:2px;}
-</style>
 </head>
+
 <body>
   <div class="container" role="document" aria-label="Resume">
     <header>
@@ -62,34 +21,39 @@
 
       <div class="contact" aria-label="Contact information">
         <div>Email: <a href="mailto:youremail@example.com">manshauaf@gmail.com</a></div>
-       <!-- <div>Phone: <a href="tel:+923000768751">+92 300 0768751</a></div> -->
-              <div>
-        Phone: 
-        <a href="tel:+923000768751">+92 300 0768751</a>
-        &nbsp;|&nbsp;
-        <a href="https://wa.me/923000768751" target="_blank">WhatsApp</a>
-      </div>
+        <!-- <div>Phone: <a href="tel:+923000768751">+92 300 0768751</a></div> -->
+        <div>
+          Phone:
+          <a href="tel:+923000768751">+92 300 0768751</a>
+          &nbsp;|&nbsp;
+          <a href="https://wa.me/923000768751" target="_blank">WhatsApp</a>
+        </div>
 
         <div>Location: Lahore, Pakistan</div>
-        <div>LinkedIn: <a href="https://www.linkedin.com/in/engineermansha/" target="_blank" rel="noopener">engineermansha</a></div>
+        <div>LinkedIn: <a href="https://www.linkedin.com/in/engineermansha/" target="_blank"
+            rel="noopener">engineermansha</a></div>
       </div>
     </header>
 
     <section class="section" aria-labelledby="summary-heading">
       <h2 id="summary-heading">Professional Summary</h2>
       <p class="summary">
-       Motivated software developer with 3+ years of experience in building modern web applications. Strong expertise in Angular with .NET Core (2+ years) and Angular with Node.js/NestJS (1 year). Skilled in REST API development, problem-solving, and designing scalable, user-focused features. Experienced in working with SQL Server for database design, queries, and performance optimization. Seeking opportunities to contribute to high-quality products and grow further as a full-stack developer.
+        Motivated software developer with 3+ years of experience in building modern web applications. Strong expertise
+        in Angular with .NET Core (2+ years) and Angular with Node.js/NestJS (1 year). Skilled in REST API development,
+        problem-solving, and designing scalable, user-focused features. Experienced in working with SQL Server for
+        database design, queries, and performance optimization. Seeking opportunities to contribute to high-quality
+        products and grow further as a full-stack developer.
       </p>
     </section>
 
     <div class="two-col">
       <main class="col-left" aria-labelledby="exp-heading">
-        <section class="section" id="exp-heading">
+        <!-- <section class="section" id="exp-heading">
           <h2>Experience</h2>
 
-          <!-- Repeat this .job block for each position -->
+        
           <div class="job">
-            <div class="company">Magnetic System — <span class="meta">Full Stack Developer</span></div>
+            <div class="company">Magnatec Systems Private Limited — <span class="meta">Full Stack Developer (Angular + .NET Core)</span></div>
             <div class="meta">Jun 2023 — Present | Lahore, Pakistan</div>
             <ul>
               <li>Developed and maintained Angular frontend for Smacc ERP and integrated with .NET Core Web APIs.</li>
@@ -102,47 +66,186 @@
             <div class="company">Previous Company — <span class="meta">Frontend Developer</span></div>
             <div class="meta">Jan 2021 — May 2023 | Remote</div>
             <ul>
-              <li>Implemented responsive UIs and component libraries in Angular; collaborated with backend team on RESTful APIs.</li>
+              <li>Implemented responsive UIs and component libraries in Angular; collaborated with backend team on
+                RESTful APIs.</li>
             </ul>
           </div>
 
-        </section>
+        </section> -->
 
-        <section class="section" aria-labelledby="projects-heading">
-          <h2 id="projects-heading">Projects</h2>
-          <div class="job">
-            <div class="company">Smacc ERP — Internal Admin</div>
-            <div class="meta">Angular, .NET Core, SQL Server</div>
-            <ul>
-              <li>Custom admin portal for managing clients, invoices, and permissions.</li>
-              <li>Implemented multilingual support and optimized forms with validation and debouncing.</li>
-            </ul>
-          </div>
-        </section>
+        
+        <section class="section" id="exp-heading">
+  <h2>Experience</h2>
 
-        <section class="section" aria-labelledby="education-heading">
-          <h2 id="education-heading">Education</h2>
-          <div class="job">
-            <div class="company">University Name — <span class="meta">B.Sc Computer Science</span></div>
-            <div class="meta">2016 — 2020</div>
-          </div>
-        </section>
+  <!-- Current Job -->
+ <div class="job">
+  <div class="company">
+    Magnatec Systems Private Limited —
+    <span class="meta">Full Stack Developer (Angular + .NET Core)</span>
+  </div>
+  <div class="meta">March 2024  — Present | Lahore, Pakistan</div>
+  <ul>
+    <li>Developing and maintaining Angular frontend for Smacc7 ERP and integrating it with ASP.NET Core Web APIs.</li>
+    <li>Worked across multiple ERP modules including Inventory, Asset Management (FA), Workshop, Custom Clearance, and Configuration modules.</li>
+    <li>Created new dynamic pages, custom forms, UI components, and improved overall user experience using Angular</li>
+    
+    <li>Led development of the Email & Print Template Builder for the entire ERP, enabling dynamic HTML templates, PDF generation, custom layouts, and print preview functionality.</li>
+    <li>Implemented and maintained Global Setup configurations affecting system-wide behaviors, printing standards, and template rendering rules.</li>
+    
+    <li>Improved backend performance by optimizing SQL queries, stored procedures, and implementing pagination and efficient data access patterns.</li>
+    <li>Built and enhanced backend services using ASP.NET Core, ADO.NET, and SQL Server.</li>
+  </ul>
+</div>
+
+
+  <!-- Previous Job -->
+<div class="job">
+  <div class="company">
+    Lexor Solutions (PVT) LTD —
+    <span class="meta">Angular Developer (Contract / Remote)</span>
+  </div>
+  <div class="meta">Feb 2023 — May 2023 | Remote</div>
+  <ul>
+    <li>Worked on an existing Angular-based product to implement feature updates and UI improvements.</li>
+    <li>Fixed frontend bugs, improved component behavior, and enhanced user experience across multiple modules.</li>
+    <li>Integrated RESTful APIs and collaborated with backend team for data flow and validation.</li>
+    <li>Performed UI refinements, code cleanup, and optimized small workflows to improve overall usability.</li>
+  </ul>
+</div>
+<div class="job">
+  <div class="company">
+    AppsGenii Technologies —
+    <span class="meta">Software Engineer (Full Stack Developer)</span>
+  </div>
+  <div class="meta">Aug 2022 — Dec 2023 | Pakistan</div>
+  <ul>
+    <li>Developed and maintained full-stack web applications using Angular for frontend and Node.js/NestJS for backend.</li>
+    <li>Integrated payment gateways including PayPal and Stripe using NestJS and Node.js, enabling secure payments and subscription workflows.</li>
+    <li>Built reusable UI components, dynamic forms, and responsive layouts to improve user experience.</li>
+    <li>Created scalable REST APIs, implemented business logic, and optimized backend performance in NestJS.</li>
+    <li>Integrated frontend with backend services and improved API communication for faster response times.</li>
+    <li>Collaborated on feature development, bug fixing, code reviews, and deployment processes.</li>
+  </ul>
+</div>
+
+
+
+
+  <h2 id="projects-heading">Projects</h2>
+
+  <!-- Project 1: Smacc7 ERP -->
+  <div class="job">
+    <div class="company">Smacc7 ERP</div>
+    <div class="meta">Angular, .NET Core, SQL Server</div>
+    <ul>
+      <li>Worked on multiple ERP modules including Inventory, Asset Management (FA), Workshop, Custom Clearance, and Configuration modules.</li>
+      <li>Developed the Email & Print Template Builder used across the ERP for dynamic templates, custom layouts, PDF export, and print previews.</li>
+      <li>Created new pages, custom forms, and reusable UI components integrated with REST APIs.</li>
+      <li>Implemented Global Setup features affecting system-wide settings, templates, and behavior standards.</li>
+    </ul>
+  </div>
+
+  <!-- Project 2: Smacc User/Advertisement Website -->
+  <div class="job">
+    <div class="company">Smacc User / Product Advertisement Website</div>
+    <div class="meta">Angular, .NET Core</div>
+    <ul>
+      <li>Developed a public-facing website for showcasing Smacc products, features, packages, and announcements.</li>
+      <li>Implemented product listing sections, advertisement banners, and real-time content rendering through APIs.</li>
+      <li>Improved layout, navigation flow, and UI behaviors for a better customer experience.</li>
+    </ul>
+  </div>
+
+  <!-- Project 3: Smacc Documentation Portal -->
+  <div class="job">
+    <div class="company">Smacc Documentation Portal</div>
+    <div class="meta">Angular</div>
+    <ul>
+      <li>Created a structured documentation platform for product manuals, guides, tutorials, and onboarding resources.</li>
+      <li>Implemented search, filtering, category navigation, and responsive layouts for easy accessibility.</li>
+    </ul>
+  </div>
+
+  <!-- Project 4: Smacc Admin Portal -->
+  <div class="job">
+    <div class="company">Smacc Admin Portal (CMS for Documentation & User Site)</div>
+    <div class="meta">Angular, .NET Core</div>
+    <ul>
+      <li>Developed an internal CMS used for managing all content of the User/Advertisement Website and Documentation Portal.</li>
+      <li>Built modules for uploading documentation pages, product content, images, videos, and announcements.</li>
+      <li>Implemented role-based access, validations, publishing workflows, and secure content management APIs.</li>
+    </ul>
+  </div>
+
+  <!-- Project 5: Smacc Launcher -->
+  <div class="job">
+    <div class="company">Smacc Launcher</div>
+    <div class="meta">Angular, .NET Core</div>
+    <ul>
+      <li>Built an application for company onboarding, client setup, and environment initialization.</li>
+      <li>Implemented payment and subscription processes including package selection, transaction handling, and activation flow.</li>
+      <li>Added sales onboarding features such as lead registration, plan assignment, and guided setup steps.</li>
+      <li>Enhanced onboarding experience with validations, connection checks, and step-based flows.</li>
+    </ul>
+  </div>
+
+</section>
+
+
+
+  <h2 id="education-heading">Education</h2>
+  <div class="job">
+    <div class="company">
+      University of Agriculture Faisalabad (UAF) —
+      <span class="meta">BS Computer Science</span>
+    </div>
+    <div class="meta">2018 — 2022 | CGPA: 3.48 / 4.00</div>
+  </div>
+</section>
+
       </main>
 
       <aside class="col-right" aria-labelledby="skills-heading">
         <section class="section" id="skills-heading">
+        
           <h2>Skills</h2>
-          <div class="skill-list" aria-hidden="false">
-            <div class="skill">Angular</div>
-            <div class="skill">.NET Core</div>
-            <div class="skill">C#</div>
-            <div class="skill">TypeScript</div>
-            <div class="skill">HTML/CSS</div>
-            <div class="skill">SQL Server</div>
-            <div class="skill">REST APIs</div>
-            <div class="skill">Git</div>
-            <div class="skill">Unit Testing</div>
-          </div>
+  <div class="skill-list">
+
+  <!-- Frontend -->
+  <div class="skill">Angular</div>
+  <div class="skill">React (Basic)</div>
+  <div class="skill">TypeScript</div>
+  <div class="skill">JavaScript</div>
+  <div class="skill">Bootstrap</div>
+  <div class="skill">Tailwind CSS</div>
+
+  <!-- Backend -->
+  <div class="skill">ASP.NET Core (Web API & MVC)</div>
+  <div class="skill">C#</div>
+  <div class="skill">REST APIs</div>
+  <div class="skill">Entity Framework Core</div>
+  <div class="skill">ADO.NET</div>
+  <div class="skill">SQL Stored Procedures</div>
+  <div class="skill">Node.js</div>
+  <div class="skill">NestJS</div>
+
+  <!-- Database -->
+  <div class="skill">SQL Server</div>
+  <div class="skill">MongoDB</div>
+
+  <!-- Cloud -->
+  <div class="skill">Azure (Basic)</div>
+  <div class="skill">AWS (Basic)</div>
+
+  <!-- Tools -->
+  <div class="skill">Git</div>
+<div class="skill">GitHub</div>
+<div class="skill">Postman</div>
+<div class="skill">VS Code</div>
+<div class="skill">Visual Studio</div>
+
+</div>
+
         </section>
 
         <section class="section" aria-labelledby="certs-heading">
@@ -164,23 +267,26 @@
     </div>
 
     <footer style="margin-top:18px;display:flex;justify-content:space-between;align-items:center;gap:12px;">
-      <div style="font-size:13px;color:var(--muted);">Last updated: <span id="updated"> <!-- filled by JS --> </span></div>
+      <div style="font-size:13px;color:var(--muted);">Last updated: <span id="updated"> <!-- filled by JS --> </span>
+      </div>
       <div class="no-print">
-        <button id="printBtn" onclick="window.print()" style="padding:8px 12px;border-radius:6px;border:1px solid #ccc;background:#fff;cursor:pointer;">
+        <button id="printBtn" onclick="window.print()"
+          style="padding:8px 12px;border-radius:6px;border:1px solid #ccc;background:#fff;cursor:pointer;">
           Print / Save as PDF
         </button>
       </div>
     </footer>
   </div>
 
-<script>
-  // Auto-fill last updated date
-  (function(){
-    const el = document.getElementById('updated');
-    const d = new Date();
-    const opts = { year: 'numeric', month: 'short', day: 'numeric' };
-    el.textContent = d.toLocaleDateString(undefined, opts);
-  })();
-</script>
+  <script>
+    // Auto-fill last updated date
+    (function () {
+      const el = document.getElementById('updated');
+      const d = new Date();
+      const opts = { year: 'numeric', month: 'short', day: 'numeric' };
+      el.textContent = d.toLocaleDateString(undefined, opts);
+    })();
+  </script>
 </body>
+
 </html>
